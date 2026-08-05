@@ -58,7 +58,6 @@ The supplied `compose.yaml` uses the pinned `v1.0.0` image. Change the tag delib
 
 Create a new Arcane project and paste the supplied `compose.yaml`.
 
-Because the image is prebuilt, use normal **Deploy**, not **Build & Deploy**.
 
 ### 2. Edit the required values
 
