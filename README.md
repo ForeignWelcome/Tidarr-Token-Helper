@@ -217,15 +217,6 @@ No `requirements.txt` is needed because the application uses only Python's stand
 
 ## Publishing a release
 
-The workflow at `.github/workflows/publish-container.yml` runs whenever a GitHub release is published.
-
-For the first release:
-
-1. Create the tag `v1.0.0`.
-2. Publish the GitHub release.
-3. Open **Actions** and wait for **Publish container image** to finish.
-4. Open the generated package settings and change its visibility to **Public**.
-
 The workflow publishes:
 
 ```text
