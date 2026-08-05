@@ -12,9 +12,6 @@ on how or why you use it. please follow the jurisdiction/rules and guidelines of
 
 - Access-token and refresh-token input fields
 - Local JWT payload decoding
-- Reads `exp` as `expires_at`
-- Reads `userId`, `user_id`, `uid`, `userid`, or `sub` as `user_id`
-- Reads `cc`, `countryCode`, `country_code`, or `country` as `country_code`
 - Review page before writing the file
 - Atomic creation or replacement of `auth.json`
 - Generated file permissions set to `0600`
