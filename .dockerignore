@@ -1,0 +1,13 @@
+.git
+.github
+docs
+README.md
+LICENSE
+SECURITY.md
+compose.yaml
+auth.example.json
+output
+__pycache__
+*.pyc
+*.log
+.DS_Store
