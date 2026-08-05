@@ -31,17 +31,13 @@ The generated file uses this format:
 
 ## Screenshots
 
-Place redacted screenshots in `docs/images/` and add them here:
 
-```markdown
-![Token entry page](docs/images/token-entry.png)
+![Token entry page](docs/images/input.png)
 
 ![Generated details](docs/images/generated-details.png)
 
-![auth.json created](docs/images/auth-created.png)
-```
+![auth.json created](docs/images/generated-file.png)
 
-Never publish real tokens, passwords, user IDs, or a real `auth.json`.
 
 ## Container image
 
