@@ -107,16 +107,6 @@ volumes:
     target: /output
 ```
 
-Prepare that directory with the same UID:GID configured in `user:`:
-
-```bash
-sudo mkdir -p /mnt/<pool-name>/<path-to-tidarr-config>/.tiddl
-sudo chown <uid>:<gid> /mnt/<pool-name>/<path-to-tidarr-config>/.tiddl
-sudo chmod 770 /mnt/<pool-name>/<path-to-tidarr-config>/.tiddl
-```
-
-Do not use recursive `chown -R` unless you intentionally want to change everything below that path.
-
 ### 4. Deploy and open
 
 Deploy the project, then open:
