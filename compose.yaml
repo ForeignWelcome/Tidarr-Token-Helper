@@ -14,7 +14,7 @@ services:
     user: "568:568"
 
     environment:
-      TZ: "Etc/UTC"
+      TZ: "Etc/UTC"  #edit your time zone
       APP_HOST: "0.0.0.0"
       APP_PORT: "8080"
 
@@ -34,8 +34,8 @@ services:
       # Replace ./output with the host path to Tidarr's .tiddl directory
       # when you are ready to create the real auth.json.
       - type: bind
-        source: ./output
-        target: /output
+        source: ./output #your path to tiddl should be smth like /mnt/pool/tidarr/config/.tiddl
+        target: /output #leave as is 
 
     read_only: true
 
