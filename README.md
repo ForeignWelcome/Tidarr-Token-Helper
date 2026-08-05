@@ -4,7 +4,7 @@ A small self-hosted web interface that decodes an access-token JWT locally and c
 
 > This project is not affiliated with TIDAL, Tidarr, or Tiddl.
 
-## disclaimer
+## Disclaimer
 This project created for educational purposes you are responsible 
 on how or why you use it. please follow the jurisdiction/rules and guidelines of your country
 
