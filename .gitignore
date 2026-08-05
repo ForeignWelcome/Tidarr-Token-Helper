@@ -1,0 +1,33 @@
+# Sensitive files
+.env
+.env.*
+!.env.example
+auth.json
+**/auth.json
+*.token
+*.secret
+
+# Generated output and backups
+output/
+*.backup
+*.bak
+*.before-*
+*.tmp
+temp-for-me/
+temp-for\ me/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
