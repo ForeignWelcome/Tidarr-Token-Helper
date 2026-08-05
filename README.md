@@ -58,7 +58,6 @@ The supplied `compose.yaml` uses the pinned `v1.0.0` image. Change the tag delib
 
 Create a new Arcane project and paste the supplied `compose.yaml`.
 
-
 ### 2. Edit the required values
 
 Change the browser password:
